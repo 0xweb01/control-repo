@@ -1,3 +1,3 @@
-node 'agent1.smcube.dev' {
+node 'default' {
   include role::master
 }
