@@ -1,3 +1,3 @@
-node pp-server.smcube.dev {
+node 'pp-server.smcube.dev' {
   include role::master
 }
