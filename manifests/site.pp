@@ -1,3 +1,3 @@
-node puppet.local {
+node pp-server.smcube.dev {
   include role::master
 }
