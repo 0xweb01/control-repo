@@ -3,8 +3,8 @@ class profile::r10k {
     remote => 'https://github.com/0xweb01/control-repo/',
   }
   class {'r10k::webhook::config':
-    use_mcollective => false,
-    enable_ssl      => false,
+   # use_mcollective => false,
+    # enable_ssl      => false,
   }
   class {'r10k::webhook':
     user   => 'root',
